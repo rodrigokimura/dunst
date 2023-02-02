@@ -7,7 +7,6 @@
     follow = "none"
 
     ### Geometry ###
-    # (format: [{width}][x{height}][+/-{x}[+/-{y}]], default: "0x0+0-0")
     width=500
     height=500
     origin = "top-right"
@@ -35,7 +34,7 @@
 
     # Corner radius for the progress bar. 0 disables rounded corners.
     progress_bar_corner_radius = 0
-    highlight = "#aaaaaa"
+    highlight = "#3CA6A6"
 
 
     indicate_hidden = true
@@ -50,7 +49,7 @@
     horizontal_padding = 8
     frame_width = 3
 
-    frame_color = "#aaaaaa"
+    frame_color = "#3CA6A6"
 
     # (values: [auto/foreground/frame/#RRGGBB] default: auto)
     separator_color = "frame"
@@ -93,16 +92,14 @@
     mouse_right_click = "close_all"
 
 [urgency_low]
-    # IMPORTANT: colors have to be defined in quotation marks.
-    # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
+    background = "#012E40"
     foreground = "#888888"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#285577"
+    background = "#024959"
     foreground = "#ffffff"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
